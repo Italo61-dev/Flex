@@ -82,9 +82,12 @@
 }
 
 @media (min-width: 1440px){
+    
+
     .menu{
         column-gap: 105px;
         flex-wrap: nowrap;
+        gap: 1.5rem;
     }
     
     .menu__item:nth-child(1) {
@@ -103,6 +106,18 @@
     }
     .menu__item:nth-child(5){
         order: 2;
+    }
+    
+    .eventos__lista{
+        justify-content: end;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+    }
+
+    .agenda__lista{
+        justify-content: end;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
     }
     
 }
